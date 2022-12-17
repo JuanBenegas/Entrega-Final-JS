@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(48, 3, 91);
+}
+
+.titulo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card{
+    width: 200px;
+    background-color: rgba(171, 162, 162, 0.405);
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.img{
+    font-size: 40px;
+}
+
+.modelo{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.marca{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.carrito{
+    color: white;
+    margin-left: 40px;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn-carrito{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+
+.tabla{
+    max-width: 50vw;
+    color: white;
+}
+
+#footer{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: gray;
+    font-size: 15px;
+    font-style: italic;
+}
