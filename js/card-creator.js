@@ -5,7 +5,9 @@ function crearCards(autos) {
         <div class="modelo">${autos.modelo}</div>
         <div class="marca">${autos.marca}</div>
         <div class="precio">$ ${autos.precio.toFixed(2)}</div>
-        <div class="btn"><input type="button" value="➕" id="${autos.id}"></div>
+        <div class="btn">
+            <input type="button" class="btn" value="➕" id="${autos.id}">
+        </div>
     </div>
     `
 }

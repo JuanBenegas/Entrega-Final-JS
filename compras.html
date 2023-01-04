@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./JSON/items.js"></script>
-    <script defer src="./js/dom.js"></script>
+    <script defer src="./js/carrito.js"></script>
 </head>
 <body>
     <h1 class="titulo" id="titulo"></h1>
@@ -18,17 +21,25 @@
     <div class="btn-carrito"><a href="./index.html"><input type="button" value="Ir a la tienda"></a></div>
     <div class="table-container">
         <table class="tabla">
-            <tr>
-                <th>MARCA</th>
-                <th>MODELO</th>
-                <th>PRECIO</th>
-            </tr>
-            <tr>
-                <th>Aqui</th>
-                <th>Vera</th>
-                <th>El producto</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>MARCA</th>
+                    <th>MODELO</th>
+                    <th>PRECIO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Aqui</th>
+                    <th>Vera</th>
+                    <th>El producto</th>
+                </tr>
+            </tbody>
         </table>
+    </div>
+    <div class="btn-compra">
+        <button class="btn-borrar" >Limpiar carrito</button>
+        <button class="btn-comprar" >Comprar</button>
     </div>
     <footer id="footer"></footer>
 </body>
